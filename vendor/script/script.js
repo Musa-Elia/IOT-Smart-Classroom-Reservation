@@ -307,7 +307,7 @@
         }
       }
 
-      // Open accordion section for building
+      // Open accordion section for buildings
       function openBuildingAccordion(building) {
         const collapseEl = document.getElementById(`collapse${building}`);
         if (collapseEl && !collapseEl.classList.contains('show')) {
